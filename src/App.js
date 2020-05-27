@@ -23,13 +23,13 @@ function App() {
 
   return (
     <div className="container has-margin-4">
-      <p className='title is-2 has-margin-1 has-text-white has-padding-1'>The Home Economy Calculator v2</p>
+      <p className='title is-2 has-margin-1 has-text-white has-padding-1'>The Home Economy Equalizer v2</p>
       <div className="columns">
             <div className="column">  
-               <Card name="Ella" sallary={parseInt(sallaryElla)} getSallary={getSallary} />
+               <Card name="Bonnie" sallary={parseInt(sallaryElla)} getSallary={getSallary} />
             </div>  
             <div className="column">  
-              <Card name="Chrille" sallary={parseInt(sallaryChrille)} getSallary={getSallary} />
+              <Card name="Clyde" sallary={parseInt(sallaryChrille)} getSallary={getSallary} />
             </div> 
       </div>
       {/*
