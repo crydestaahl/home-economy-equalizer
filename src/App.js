@@ -1,24 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Card from './card'
+import bulma from 'bulma'
+import style from './style.sass'
+import Visuals from './visuals'
+import { useState, useEffect } from 'react'
 
 function App() {
+  const [ sallary, setSallary ] = useState(0);
+  let sallaryElla;
+  let sallaryChrille; 
+  
+  useEffect(() =>{
+    sallaryElla = getSallary();
+    sallaryChrille = getSallary();
+  })
+
+  const getSallary = (sallary) => {
+    const newSallary = sallary; 
+    setSallary(newSallary);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container has-margin-4">
+      <p className='title is-2 has-margin-1 has-text-white has-padding-1'>The Home Economy Calculator v2</p>
+      <div className="columns">
+            <div className="column">  
+               <Card name="Ella" sallary={parseInt(sallaryElla)} getSallary={getSallary} />
+            </div>  
+            <div className="column">  
+              <Card name="Chrille" sallary={parseInt(sallaryChrille)} getSallary={getSallary} />
+            </div> 
+      </div>
+      {/*
+        <button className="button" onClick="">Save to excel</button>
+        <Visuals />
+      */}
     </div>
   );
 }
