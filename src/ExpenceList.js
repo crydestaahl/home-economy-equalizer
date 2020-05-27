@@ -18,7 +18,7 @@ function ExpenceList({ updateSum, getExpences, name }) {
         resa: ''        
     })
     
-    const expences = [ 'Utlägg:', 'Räkningar:', 'Hus:', 'Bil:', 'Billån:', 'Mat:', 'Resa:']
+    const expences = [ 'Expenses:', 'Bills:', 'House:', 'Car:', 'Car loan:', 'Food:', 'Travel:']
 
     const handleInputChange = e => {
         const newValue = e.target.value
