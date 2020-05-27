@@ -19,7 +19,7 @@ function Card({ name, getSallary }) {
     const handleInputChange = e => {
         const newSallary = e.target.value;
         setYourSallary(newSallary);
-        getSallary(newSallary);
+        getSallary(yourSallary);
     }
 
     useEffect(() => {
@@ -33,8 +33,8 @@ function Card({ name, getSallary }) {
                 <div className="columns">
                     <div className="column">
                         <p class="title is-4">{currentName}</p>
-                        <p class="title is-6">Du har kvar: {yourSallary - childValue}</p>     
-                        <label className="label">Lön:</label>
+                        <p class="title is-6">What you have left: {yourSallary - childValue}</p>     
+                        <label className="label">Sallary:</label>
                         <div className="control">
                                     <input 
                                         id={currentName} 
@@ -48,7 +48,7 @@ function Card({ name, getSallary }) {
                                 </div>
                     </div>
                     <div className="column">
-                        <p className="title is-6">Du betalar: {childValue}</p>
+                        <p className="title is-6">You're paying: {childValue}</p>
                     </div>
                 </div>
                 <ExpenceList updateSum={updateSum} getExpences={getExpences} name={currentName}/>

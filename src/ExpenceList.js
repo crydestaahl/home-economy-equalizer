@@ -10,15 +10,16 @@ function ExpenceList({ updateSum, getExpences, name }) {
  
     const [sum, setSum] = useState(0)
     const [value, setValue] = useState({
-        utlägg: '',
-        räkningar: '',
-        hus: '',
-        bil: '',
-        mat: '',
-        resa: ''        
+        expenses: '',
+        bills: '',
+        house: '',
+        car: '',
+        food: '',
+        travel: '',
+        car_loan: '',        
     })
     
-    const expences = [ 'Expenses:', 'Bills:', 'House:', 'Car:', 'Car loan:', 'Food:', 'Travel:']
+    const expences = [ 'Expenses:', 'Bills:', 'House:', 'Car:', 'Food:', 'Travel:', 'Car_loan:']
 
     const handleInputChange = e => {
         const newValue = e.target.value
