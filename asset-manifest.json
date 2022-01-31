@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/home-economy-equalizer/static/css/main.cc34d9fc.chunk.css",
+    "main.js": "/home-economy-equalizer/static/js/main.7ff4dc26.chunk.js",
+    "main.js.map": "/home-economy-equalizer/static/js/main.7ff4dc26.chunk.js.map",
+    "runtime-main.js": "/home-economy-equalizer/static/js/runtime-main.04154ea2.js",
+    "runtime-main.js.map": "/home-economy-equalizer/static/js/runtime-main.04154ea2.js.map",
+    "xlsx.js": "/home-economy-equalizer/static/js/xlsx.11005b29.chunk.js",
+    "xlsx.js.map": "/home-economy-equalizer/static/js/xlsx.11005b29.chunk.js.map",
+    "static/js/3.d9bbdc27.chunk.js": "/home-economy-equalizer/static/js/3.d9bbdc27.chunk.js",
+    "static/js/3.d9bbdc27.chunk.js.map": "/home-economy-equalizer/static/js/3.d9bbdc27.chunk.js.map",
+    "static/css/4.31c71989.chunk.css": "/home-economy-equalizer/static/css/4.31c71989.chunk.css",
+    "static/js/4.25b869db.chunk.js": "/home-economy-equalizer/static/js/4.25b869db.chunk.js",
+    "static/js/4.25b869db.chunk.js.map": "/home-economy-equalizer/static/js/4.25b869db.chunk.js.map",
+    "static/js/5.e37b9085.chunk.js": "/home-economy-equalizer/static/js/5.e37b9085.chunk.js",
+    "static/js/5.e37b9085.chunk.js.map": "/home-economy-equalizer/static/js/5.e37b9085.chunk.js.map",
+    "static/js/6.2a19b5c1.chunk.js": "/home-economy-equalizer/static/js/6.2a19b5c1.chunk.js",
+    "static/js/6.2a19b5c1.chunk.js.map": "/home-economy-equalizer/static/js/6.2a19b5c1.chunk.js.map",
+    "index.html": "/home-economy-equalizer/index.html",
+    "precache-manifest.2a1db683fc4dd6d8ba6b55e643b06d6c.js": "/home-economy-equalizer/precache-manifest.2a1db683fc4dd6d8ba6b55e643b06d6c.js",
+    "service-worker.js": "/home-economy-equalizer/service-worker.js",
+    "static/css/4.31c71989.chunk.css.map": "/home-economy-equalizer/static/css/4.31c71989.chunk.css.map",
+    "static/css/main.cc34d9fc.chunk.css.map": "/home-economy-equalizer/static/css/main.cc34d9fc.chunk.css.map",
+    "static/js/4.25b869db.chunk.js.LICENSE.txt": "/home-economy-equalizer/static/js/4.25b869db.chunk.js.LICENSE.txt",
+    "static/js/5.e37b9085.chunk.js.LICENSE.txt": "/home-economy-equalizer/static/js/5.e37b9085.chunk.js.LICENSE.txt",
+    "static/js/6.2a19b5c1.chunk.js.LICENSE.txt": "/home-economy-equalizer/static/js/6.2a19b5c1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04154ea2.js",
+    "static/css/4.31c71989.chunk.css",
+    "static/js/4.25b869db.chunk.js",
+    "static/css/main.cc34d9fc.chunk.css",
+    "static/js/main.7ff4dc26.chunk.js"
+  ]
+}
